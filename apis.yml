@@ -1,0 +1,32 @@
+aid: clico
+name: Clico
+description: "URL shortener service"
+url: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "URL Shorteners"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - URL Shorteners
+  - Public APIs
+apis:
+  - name: Clico
+    description: "URL shortener service"
+    humanURL: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+    baseURL: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+    tags:
+      - URL Shorteners
+    properties:
+      - type: Documentation
+        url: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+common:
+  - type: Website
+    url: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
