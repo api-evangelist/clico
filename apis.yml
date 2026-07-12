@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
 common:
+  - type: DomainSecurity
+    url: security/clico-domain-security.yml
   - type: Website
     url: https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
   - type: PublicAPIsListing
